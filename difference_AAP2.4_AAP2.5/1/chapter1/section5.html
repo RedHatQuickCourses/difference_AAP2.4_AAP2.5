@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Types of Installation: :: What Makes Ansible Automation Platform 2.5 Better Than 2.4?</title>
-    <link rel="prev" href="section2.html">
-    <link rel="next" href="section4.html">
+    <title>The Config as code :: What Makes Ansible Automation Platform 2.5 Better Than 2.4?</title>
+    <link rel="prev" href="section4.html">
+    <link rel="next" href="section6.html">
     <meta name="generator" content="Antora 3.1.3">
     <link rel="stylesheet" href="../../../_/css/site.css">
     <script>var uiRootPath = '../../../_'</script>
@@ -56,13 +56,13 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section2.html">Architecture changes</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section3.html">Types of Installation:</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section4.html">The Unified UI</a>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="section5.html">The Config as code</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -117,7 +117,7 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">What Makes Ansible Automation Platform 2.5 Better Than 2.4?</a></li>
-    <li><a href="section3.html">Types of Installation:</a></li>
+    <li><a href="section5.html">The Config as code</a></li>
   </ul>
 </nav>
 </div>
@@ -126,53 +126,55 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Types of Installation:</h1>
+<h1 class="page">The Config as code</h1>
 <div class="paragraph">
-<p>Starting with Ansible Automation Platform 2.5, three different on-premise deployment models are fully tested. In addition to the older existing RPM-based installer and operator which was there for Ansible Automation Platform 2.4, now with Ansible Automation Platform 2.5 the containerized installer is being added</p>
+<p>To automate your automation, use Ansible Playbooks to set up and maintain Ansible Automation Platform with fresh and updated material sets using collections.</p>
 </div>
 <div class="paragraph">
-<p>As the platform moves toward a container-first model, the RPM-based installer will be removed in a future release</p>
-</div>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">RPM</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Containerized</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Openshift Operator</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Suitable for traditional RHEL environments</p>
-<p class="tableblock">Deprecated with AAP 2.5 (removal TBD)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ideal for flexibility and rapid scaling</p>
-<p class="tableblock">Simplifies dependency management</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Seamless integration with Openshift</p>
-<p class="tableblock">Automated lifecycle management</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>System Requirement</p>
+<p>Employ a consistent gitops "as-code" methodology to supply platform configuration and automation material.</p>
 </div>
 <div class="paragraph">
-<p>Since the Container and Operator based deployment needs 3000 IOPS (input/output operations per second) compared to the VM bases Deployment 1500 IOPS please refer to the below Guides while doing the deployment:</p>
+<p>Certified collections for platform services configuration:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://console.redhat.com/ansible/automation-hub/repo/published/ansible/hub/">ansible.hub</a>* : This Ansible collection allows for easy interaction with an Ansible Automation Hub server via Ansible playbooks.</p>
+</li>
+<li>
+<p><a href="https://console.redhat.com/ansible/automation-hub/repo/published/ansible/eda/">Ansible.eda</a> : This collection is for Event Driven Ansible controller contains event source plugins, event filters and example rulebooks to be used with ansible-rulebook.</p>
+</li>
+<li>
+<p><a href="https://console.redhat.com/ansible/automation-hub/repo/published/ansible/controller/">ansible.controller</a> : This Ansible collection allows for easy interaction with an Red Hat Ansible Automation Platform server via <a href="https://ansible.readthedocs.io/projects/rulebook/en/stable/">Ansible playbooks</a>.</p>
+</li>
+<li>
+<p><a href="https://console.redhat.com/ansible/automation-hub/repo/published/ansible/platform/">ansible.platform</a>* : This collection contains modules that can be used to automate the creation of resources on an install of Ansible Automation Platform.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>RPM : The <a href="https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/rpm_installation/platform-system-requirements">System requirements</a> section of RPM installation.</p>
+<p>*new in AAP 2.5</p>
 </div>
 <div class="paragraph">
-<p>Containerized : The <a href="https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/containerized_installation/aap-containerized-installation#system_requirements">System requirements</a> section of Containerized installation.</p>
+<p><a href="https://console.redhat.com/ansible/automation-hub/repo/validated/infra/aap_configuration/">Validated collections</a> for more opinionated tasks:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/5.png" alt="5">
+</div>
 </div>
 <div class="paragraph">
-<p>For <a href="https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/tested_deployment_models/ocp-topologies#tested_system_configurations_6">system requirements</a> for installing Ansible Automation Platform on OpenShift Container Platform, see the Tested system configurations section of Tested deployment models.</p>
+<p>This Ansible collection allows for easy interaction with AAP services via Ansible roles using the modules from the certified collections and can deploy resources for automation.</p>
+</div>
+<div class="paragraph">
+<p>Infra.hub_configuration
+infra.platform_configuration
+infra.controller_configuration
+Infra.eda_configuration</p>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="section2.html">Architecture changes</a></span>
-  <span class="next"><a href="section4.html">The Unified UI</a></span>
+  <span class="prev"><a href="section4.html">The Unified UI</a></span>
+  <span class="next"><a href="section6.html">section6.adoc</a></span>
 </nav>
 </article>
   </div>
