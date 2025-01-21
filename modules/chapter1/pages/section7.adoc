@@ -1,0 +1,15 @@
+= Ansible development tools
+
+The https://www.redhat.com/en/technologies/management/ansible/development-tools[Ansible development tools] package included with the platform has fresh updates designed to help developers work more efficiently. Ansible development tools are a comprehensive suite of enterprise-grade automation development capabilities that are curated and supported to make it easier for automation developers to create, test, and deploy Ansible content. These tools integrate easily into existing workflows, enabling more experienced content creators to write Ansible content quickly and accurately.  Ansible development tools comprise the following tools: 	
+
+- *Ansible-builder*: Ansible builder automates the process of creating execution environments using the schemas and tooling.					
+- *Ansible-lint*: Ansible lint checks playbooks for style errors, best practices, and other issues to ensure the integrity of your code. 	
+- *Ansible-creator**: The fastest way to scaffold your Ansible Playbook or collection projects with Ansible recommended practices.				
+Ansible-navigator: Ansible navigator is a text-based user interface (TUI) to help you develop and troubleshoot Ansible Playbooks with execution environments.					
+- *Ansible-sign*: Ansible sign is a utility for signing and verifying Ansible project directory contents to ensure a secure software supply chain.				
+- *Molecule*: Ansible Molecule aids in the development and testing of Ansible Content Collections, playbooks, and roles.	
+- *Ansible-dev-environment** : Ansible development environment helps build and manage virtual environments for content development. 	
+- *pytest-ansible**: Pytest-ansible enables the use of Ansible testing functions for modules and plugins built in Python. 
+- *Tox-ansible**: Tox-ansible is a plugin that dynamically creates a full matrix of Python interpreters and ansible-core version environments for running integration and sanity checks.	
+
+* Net new tools available to help improve the Ansible creator experience.	For more information, see the https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html/installing_ansible_plug-ins_for_red_hat_developer_hub/rhdh-intro_aap-plugin-rhdh-installing#rhdh-about-plugins_rhdh-intro[Ansible plug-ins for Red Hat Developer Hub] documentation. 

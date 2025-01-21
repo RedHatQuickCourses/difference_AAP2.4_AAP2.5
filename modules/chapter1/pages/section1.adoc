@@ -1,6 +1,7 @@
-= Section 1
+= Quick Start Guide 
 
-* Create multiple copies of this section as needed.
-* Remove any unnecessary sections or chapter pages.
-* Customize the section as appropriate.
-* Ensure that each page contains a manageable amount of content.
+Accessible straight from the platform GUI, these new interactive, step-by-step instructions will help you get started with important Ansible Automation Platform tasks and functions fast. Build the foundation for a centralized automation approach with flexibility and control by creating pre-configured "units" of automation, such as execution environments and decision environments, that teams can utilize as reliable, compliant project jump-starts.
+
+Give new employees in your company the opportunity to learn the Ansible Automation Platform components that are most pertinent to their requirements. 
+
+image::Quick_start.png[]

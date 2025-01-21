@@ -1,27 +1,25 @@
-= An Example Quick Course
+= What Makes Ansible Automation Platform 2.5 Better Than 2.4?
 :navtitle: Home
 
 == Introduction
 
-Course Title: Course title FIXME
+The Ansible Automation Platform 2.5 introduces a range of enhancements to streamline workflows and boost usability over Ansible Automation Platform 2.4 . The updated architecture, featuring a Unified UI, provides a cohesive and intuitive experience for managing tasks. A Quick Start Guide simplifies onboarding, allowing new users to get started effortlessly. With Configuration as Code, infrastructure management becomes more programmatic and efficient. The inclusion of centralized Redis improves caching, performance, and state management, ensuring robust operations. Additionally, Event-Driven Ansible automates responses to system events, delivering real-time efficiency and greater operational agility.
 
-Description:
-Course description FIXME
+In this Crouse you will learn about what are the key changes done in the Ansible Automation Platform 2.5 over Ansible Automation Platform 2.4
 
-Duration: FIXME hours
+
+Duration: 30 minutes
 
 == Objectives
 
-On completing this course, you should be able to:
+- Introduction to the Architecture changes/Unified UI and the quick start guide.
+- Introduction to New Tools and Capabilities like config as code. 
+- Introduction the Centralized Redis
+- Introduction to  Event-Driven Ansible
 
-* Observable, measurable objective...
-* Observable, measurable objective...
-* Observable, measurable objective...
 
 == Prerequisites
 
 This course assumes that you have the following prior experience:
 
-* Course or experience...
-* Course or experience...
-* Course or experience...
+- Basic information of Ansible Automation Platform 2.4 and its working.  

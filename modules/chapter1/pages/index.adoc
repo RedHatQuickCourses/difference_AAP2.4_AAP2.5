@@ -1,7 +1,8 @@
-= Chapter 1
+= What Makes Ansible Automation Platform 2.5 Better Than 2.4?
 
-In this section, we cover... FIXME
+In this section, we cover on what new changes are there in Ansible Automation Platform 2.5 which makes it better compared to Ansible Automation Platform 2.4 here is the generic owerview: 
 
-
-- Add or remove section entries in the `antora.yaml` file as needed.
-- Ensure you create or delete the corresponding directory for the chapter accordingly.
+- Introduction to the Architecture changes/Unified UI and the quick start guide.
+- Introduction to New Tools and Capabilities like config as code. 
+- Introduction the Centralized Redis
+- Introduction to  Event-Driven Ansible

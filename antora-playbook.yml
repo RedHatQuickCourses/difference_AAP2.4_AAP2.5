@@ -1,5 +1,6 @@
 site:
-  title: FIXME Course Title
+  title: What Makes Ansible Automation Platform 2.5 Better Than 2.4?
+
   start_page: difference_AAP2.4_AAP2.5::index.adoc
 
 content:

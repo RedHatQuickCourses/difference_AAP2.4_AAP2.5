@@ -1,0 +1,26 @@
+= The Config as code
+
+To automate your automation, use Ansible Playbooks to set up and maintain Ansible Automation Platform with fresh and updated material sets using collections. 
+
+Employ a consistent gitops "as-code" methodology to supply platform configuration and automation material.
+
+Certified collections for platform services configuration: 
+
+- https://console.redhat.com/ansible/automation-hub/repo/published/ansible/hub/[ansible.hub]* : This Ansible collection allows for easy interaction with an Ansible Automation Hub server via Ansible playbooks.
+- https://console.redhat.com/ansible/automation-hub/repo/published/ansible/eda/[Ansible.eda] : This collection is for Event Driven Ansible controller contains event source plugins, event filters and example rulebooks to be used with ansible-rulebook.
+- https://console.redhat.com/ansible/automation-hub/repo/published/ansible/controller/[ansible.controller] : This Ansible collection allows for easy interaction with an Red Hat Ansible Automation Platform server via https://ansible.readthedocs.io/projects/rulebook/en/stable/[Ansible playbooks].
+
+- https://console.redhat.com/ansible/automation-hub/repo/published/ansible/platform/[ansible.platform]* : This collection contains modules that can be used to automate the creation of resources on an install of Ansible Automation Platform.
+
+*new in AAP 2.5
+
+https://console.redhat.com/ansible/automation-hub/repo/validated/infra/aap_configuration/[Validated collections] for more opinionated tasks:
+
+image::5.png[]
+
+This Ansible collection allows for easy interaction with AAP services via Ansible roles using the modules from the certified collections and can deploy resources for automation. 
+
+Infra.hub_configuration
+infra.platform_configuration
+infra.controller_configuration
+Infra.eda_configuration
