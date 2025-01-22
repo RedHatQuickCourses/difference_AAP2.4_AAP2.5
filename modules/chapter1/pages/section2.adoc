@@ -1,4 +1,4 @@
-= Architecture changes
+= Architecture Changes
 
 In AAP 2.5 a new service is being developed to collate all the services. AAP 2.5 introduces a new, unified user interface. This interface allows you to access RBAC for both the automation controller and Event-Driven Ansible. Additionally, the automation controller, Event-Driven Ansible, and Automation Hub are all integrated into this single UI, bringing together all your favorite automation tools in one centralized location.
 
@@ -6,7 +6,7 @@ In AAP 2.5 a new service is being developed to collate all the services. AAP 2.5
 
 image::2.png[]
 
-In versions before 2.5, the Ansible Automation Platform was split into three primary services: automation controller, automation hub, and Event-Driven Ansible controller. Each service included standalone user interfaces, separate deployment configurations, and separate authentication schemas. 
+In the versions before 2.5, the Ansible Automation Platform was split into three primary services: automation controller, automation hub, and Event-Driven Ansible controller. Each service included standalone user interfaces, separate deployment configurations, and separate authentication schemas. 
 
 *AAP 2.5. Now: Three in one*
 
@@ -18,11 +18,11 @@ In AAP 2.5, the platform gateway is provided as a service that handles authentic
 The Unified UI highlights the functional benefits provided by each underlying service. New UI terminology aligns to earlier names as follows: 	
 
 .. *Automation execution* provides functionality from the automation controller service 		
-.. *Automation decisions* provides functionality from the Event-Driven Ansible service 		
+.. *Automation decisions* provide functionality from the Event-Driven Ansible service 		
 .. *Automation content* provides functionality from the automation hub service 				
 
-The platform Gateway is a service which uses GRPC on the port 50051 to check the cluster status of the Unified UI. 
+The Platform Gateway is a service which uses GRPC on port 50051 to check the cluster status of the Unified UI. 
 
-Due to this change it is mandatory to have the external database whether it is Ansible automation platform script deployed database or Customer managed external database. 
+Due to this change, it is mandatory to have the external database whether it is the Ansible automation platform script deployed database or Customer managed external database. 
 
-Although AAP services do not share a database, they must typically be aware of teams, organizations, and users and maintain synchronization across them. The gateway is the source of truth for these resources according to the architecture. The gateway attempts to instantly sync any changes made to an organization, team, user, or update to the underlying services. if sync doesn't work or fails. We also have a task that calls back to the gateway to "catch up" every 15 minutes on each service. A sync has most likely failed if a customer complains that an organization, team, or user was formed in the gateway but did not appear in the Controller right after so you just need to wait for 15 minutes so that the sync can be done. 
+Although AAP services do not share a database, they must typically be aware of teams, organizations, and users and maintain synchronization across them. The gateway is the source of truth for these resources according to the architecture. The gateway attempts to instantly sync any changes made to an organization, team, user, or update to the underlying services. If sync doesn't work or fails. We also have a task that calls back to the gateway to "catch up" every 15 minutes on each service. A sync has most likely failed if a customer complains that an organization, team, or user was formed in the gateway but did not appear in the Controller right after so you just need to wait for 15 minutes so that the sync can be done. 

@@ -4,4 +4,4 @@
 - Quick Start Guide for easy onboarding to the Ansible Automation Platform.
 - Configuration as Code enables programmatic management of infrastructure.
 - Centralized Redis enhances caching, performance, and state management.
-- Event-Driven Ansible automates responses to system events for real-time efficiency.
+- Event-driven Ansible automates responses to system events for real-time efficiency.

@@ -1,8 +1,10 @@
-= Types of Installation: 
+= Types of Installation 
 
 Starting with Ansible Automation Platform 2.5, three different on-premise deployment models are fully tested. In addition to the older existing RPM-based installer and operator which was there for Ansible Automation Platform 2.4, now with Ansible Automation Platform 2.5 the containerized installer is being added  	
 
-As the platform moves toward a container-first model, the RPM-based installer will be removed in a future release		
+As the platform moves toward a container-first model, the RPM-based installer will be removed in a future release.
+
+
 
 |===
 |RPM | Containerized | Openshift Operator
@@ -18,11 +20,11 @@ Automated lifecycle management
 
 System Requirement 
 
-Since the Container and Operator based deployment needs 3000 IOPS (input/output operations per second) compared to the VM bases Deployment 1500 IOPS please refer to the below Guides while doing the deployment: 
+Since the Container and Operator based deployment needs 3000 IOPS (input/output operations per second) compared to the VM based Deployment of 1500 IOPS please refer to the below Guides while doing the deployment: 
 
 RPM : The https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/rpm_installation/platform-system-requirements[System requirements] section of RPM installation. 			
 
-Containerized : The https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/containerized_installation/aap-containerized-installation#system_requirements[System requirements] section of Containerized installation. 			
+Containerized: The https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/containerized_installation/aap-containerized-installation#system_requirements[System requirements] section of Containerized installation. 			
 
 For https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/tested_deployment_models/ocp-topologies#tested_system_configurations_6[system requirements] for installing Ansible Automation Platform on OpenShift Container Platform, see the Tested system configurations section of Tested deployment models. 
 

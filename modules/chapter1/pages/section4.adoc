@@ -2,7 +2,7 @@
 
 image::4.png[]
 
-The unified UI in Ansible Automation Platform delivers a seamless and consistent experience for operators, developers, and platform administrators to manage automation across their enterprise.
+The unified UI in the Ansible Automation Platform delivers a seamless and consistent experience for operators, developers, and platform administrators to manage automation across their enterprise.
 
 - Unified UI provides:
 - Centralized control
@@ -18,14 +18,14 @@ The unified UI in Ansible Automation Platform delivers a seamless and consistent
 
 image::4.2.png[]
 
-. Compared to the Ansible Automation Platform 2.4 the  new interface that delivers an improved experience for operators, developers and platform administrators, with a more consistent and centralized: 
+. Compared to the Ansible Automation Platform 2.4 the  new interface that delivers an improved experience for operators, developers, and platform administrators, with a more consistent and centralized: 
 
 - WebUI
 - API
 - Authentication and authorization
-- Role based access controls (RBAC)
+- Role-based access controls (RBAC)
 
 
 . Use Ansible Analytics directly within the unified UI to generate reporting at scale. 
 
-. Automation Calculator: ROI reporting to demonstrate the value and impact of automation initiatives .
+. Automation Calculator: ROI reporting to demonstrate the value and impact of automation initiatives.
