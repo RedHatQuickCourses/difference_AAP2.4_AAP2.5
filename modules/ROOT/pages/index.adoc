@@ -1,4 +1,4 @@
-= What’s new in Ansible Automation Platform 2.5?
+= Key New Features in AAP 2.5
 :navtitle: Home
 
 == Introduction

@@ -1,5 +1,5 @@
 name: difference_AAP2.4_AAP2.5
-title: What’s new in Ansible Automation Platform 2.5?
+title: Key New Features in AAP 2.5
 version: 1
 nav:
 - modules/ROOT/nav.adoc
