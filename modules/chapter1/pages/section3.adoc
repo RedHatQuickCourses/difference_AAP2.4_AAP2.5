@@ -27,4 +27,6 @@ Containerized : The https://docs.redhat.com/en/documentation/red_hat_ansible_aut
 For https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.5/html/tested_deployment_models/ocp-topologies#tested_system_configurations_6[system requirements] for installing Ansible Automation Platform on OpenShift Container Platform, see the Tested system configurations section of Tested deployment models. 
 
 
+*Containerized Deployment*
 
+From Ansible Automation platform Containerized Deployment is fully Supported Deployment which use the power of the RHEL + Podman. Containerized Ansible Automation Platform runs the component services as podman based containers on top of a RHEL host.  This helps many customers to utilize the benefits of Container with Ansible Automation Platform together. 
