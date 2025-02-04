@@ -49,8 +49,5 @@ Yet Teams seem to be still managed via Controller API (old way)
 .. Org roles are managed from Orgs, not from Teams and Users
 .. Ability to create custom role definitions
 
-
-
-
 . Use Ansible Analytics directly within the unified UI to generate reporting at scale. 
 .. Automation Calculator: ROI reporting to demonstrate the value and impact of automation initiatives .

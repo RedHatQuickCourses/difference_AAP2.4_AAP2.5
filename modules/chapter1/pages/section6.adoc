@@ -10,7 +10,7 @@ image::6.png[]
 
 If a resilient solution is not a requirement, deploy Ansible Automation Platform with a standalone Redis. 			
 
-
+*Resilience Solutions* basically assists businesses in reducing risks. These solutions improve an organization's capacity to endure and bounce back from crises, reduce disruptions, and guarantee business continuity. Each step makes the following contributions:
 
 *Clustered*
 
