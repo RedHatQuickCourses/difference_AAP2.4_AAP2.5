@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Architecture changes :: Key New Features in AAP 2.5</title>
+    <title>Architecture Changes :: Key New Features in AAP 2.5</title>
     <link rel="prev" href="section1.html">
     <link rel="next" href="section3.html">
     <meta name="generator" content="Antora 3.1.3">
@@ -54,10 +54,10 @@
     <a class="nav-link" href="section1.html">Quick Start Guide</a>
   </li>
   <li class="nav-item is-current-page" data-depth="2">
-    <a class="nav-link" href="section2.html">Architecture changes</a>
+    <a class="nav-link" href="section2.html">Architecture Changes</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section3.html">Types of Installation:</a>
+    <a class="nav-link" href="section3.html">Types of Installation</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section4.html">The Unified UI</a>
@@ -72,7 +72,7 @@
     <a class="nav-link" href="section7.html">Ansible development tools</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="section8.html">Event-Driven Ansible</a>
+    <a class="nav-link" href="section8.html">Event-driven Ansible</a>
   </li>
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="section9.html">Summary</a>
@@ -117,7 +117,7 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Key New Features in AAP 2.5</a></li>
-    <li><a href="section2.html">Architecture changes</a></li>
+    <li><a href="section2.html">Architecture Changes</a></li>
   </ul>
 </nav>
 </div>
@@ -126,7 +126,7 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">Architecture changes</h1>
+<h1 class="page">Architecture Changes</h1>
 <div class="paragraph">
 <p>In AAP 2.5 a new service is being developed to collate all the services. AAP 2.5 introduces a new, unified user interface. This interface allows you to access RBAC for both the automation controller and Event-Driven Ansible. Additionally, the automation controller, Event-Driven Ansible, and Automation Hub are all integrated into this single UI, bringing together all your favorite automation tools in one centralized location.</p>
 </div>
@@ -139,7 +139,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>In versions before 2.5, the Ansible Automation Platform was split into three primary services: automation controller, automation hub, and Event-Driven Ansible controller. Each service included standalone user interfaces, separate deployment configurations, and separate authentication schemas.</p>
+<p>In the versions before 2.5, the Ansible Automation Platform was split into three primary services: automation controller, automation hub, and Event-Driven Ansible controller. Each service included standalone user interfaces, separate deployment configurations, and separate authentication schemas.</p>
 </div>
 <div class="paragraph">
 <p><strong>AAP 2.5. Now: Three in one</strong></p>
@@ -161,7 +161,7 @@
 <p><strong>Automation execution</strong> provides functionality from the automation controller service</p>
 </li>
 <li>
-<p><strong>Automation decisions</strong> provides functionality from the Event-Driven Ansible service</p>
+<p><strong>Automation decisions</strong> provide functionality from the Event-Driven Ansible service</p>
 </li>
 <li>
 <p><strong>Automation content</strong> provides functionality from the automation hub service</p>
@@ -169,17 +169,17 @@
 </ol>
 </div>
 <div class="paragraph">
-<p>The platform Gateway is a service which uses GRPC on the port 50051 to check the cluster status of the Unified UI.</p>
+<p>The Platform Gateway is a service which uses GRPC on port 50051 to check the cluster status of the Unified UI.</p>
 </div>
 <div class="paragraph">
-<p>Due to this change it is mandatory to have the external database whether it is Ansible automation platform script deployed database or Customer managed external database.</p>
+<p>Due to this change, it is mandatory to have the external database whether it is the Ansible automation platform script deployed database or Customer managed external database.</p>
 </div>
 <div class="paragraph">
-<p>Although AAP services do not share a database, they must typically be aware of teams, organizations, and users and maintain synchronization across them. The gateway is the source of truth for these resources according to the architecture. The gateway attempts to instantly sync any changes made to an organization, team, user, or update to the underlying services. if sync doesn&#8217;t work or fails. We also have a task that calls back to the gateway to "catch up" every 15 minutes on each service. A sync has most likely failed if a customer complains that an organization, team, or user was formed in the gateway but did not appear in the Controller right after so you just need to wait for 15 minutes so that the sync can be done.</p>
+<p>Although AAP services do not share a database, they must typically be aware of teams, organizations, and users and maintain synchronization across them. The gateway is the source of truth for these resources according to the architecture. The gateway attempts to instantly sync any changes made to an organization, team, user, or update to the underlying services. If sync doesn&#8217;t work or fails. We also have a task that calls back to the gateway to "catch up" every 15 minutes on each service. A sync has most likely failed if a customer complains that an organization, team, or user was formed in the gateway but did not appear in the Controller right after so you just need to wait for 15 minutes so that the sync can be done.</p>
 </div>
 <nav class="pagination">
   <span class="prev"><a href="section1.html">Quick Start Guide</a></span>
-  <span class="next"><a href="section3.html">Types of Installation:</a></span>
+  <span class="next"><a href="section3.html">Types of Installation</a></span>
 </nav>
 </article>
   </div>
