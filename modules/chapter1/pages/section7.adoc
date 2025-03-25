@@ -8,7 +8,7 @@ The https://www.redhat.com/en/technologies/management/ansible/development-tools[
 Ansible-navigator: Ansible navigator is a text-based user interface (TUI) to help you develop and troubleshoot Ansible Playbooks with execution environments.					
 - *Ansible-sign*: Ansible sign is a utility for signing and verifying Ansible project directory contents to ensure a secure software supply chain.				
 - *Molecule*: Ansible Molecule aids in the development and testing of Ansible Content Collections, playbooks, and roles.	
-- *Ansible-dev-environment** : Ansible development environment helps build and manage virtual environments for content development. 	
+- *Ansible-dev-environment**: Ansible development environment helps build and manage virtual environments for content development. 	
 - *pytest-ansible**: Pytest-ansible enables the use of Ansible testing functions for modules and plugins built in Python. 
 - *Tox-ansible**: Tox-ansible is a plugin that dynamically creates a full matrix of Python interpreters and ansible-core version environments for running integration and sanity checks.	
 

@@ -3,9 +3,9 @@
 
 == Introduction
 
-The Ansible Automation Platform 2.5 introduces a range of enhancements to streamline workflows and boost usability over Ansible Automation Platform 2.4 . The updated architecture, featuring a Unified UI, provides a cohesive and intuitive experience for managing tasks. A Quick Start Guide simplifies onboarding, allowing new users to get started effortlessly. With Configuration as Code, infrastructure management becomes more programmatic and efficient. The inclusion of centralized Redis improves caching, performance, and state management, ensuring robust operations. Additionally, Event-Driven Ansible automates responses to system events, delivering real-time efficiency and greater operational agility.
+The Ansible Automation Platform 2.5 introduces a range of enhancements to streamline workflows and boost usability over Ansible Automation Platform 2.4. The updated architecture, featuring a Unified UI, provides a cohesive and intuitive experience for managing tasks. A Quick Start Guide simplifies onboarding, allowing new users to get started effortlessly. With Configuration as Code, infrastructure management becomes more programmatic and efficient. The inclusion of centralized Redis improves caching, performance, and state management, ensuring robust operations. Additionally, Event-Driven Ansible automates responses to system events, delivering real-time efficiency and greater operational agility.
 
-In this Crouse you will learn about what are the key changes done in the Ansible Automation Platform 2.5 over Ansible Automation Platform 2.4
+In this course you will learn about what are the key changes done in the Ansible Automation Platform 2.5 over Ansible Automation Platform 2.4.
 
 
 Duration: 30 minutes
@@ -14,8 +14,8 @@ Duration: 30 minutes
 
 - Introduction to the Architecture changes/Unified UI and the quick start guide.
 - Introduction to New Tools and Capabilities like config as code. 
-- Introduction the Centralized Redis
-- Introduction to  Event-Driven Ansible
+- Introduction the Centralized Redis.
+- Introduction to  Event-Driven Ansible.
 
 
 == Prerequisites

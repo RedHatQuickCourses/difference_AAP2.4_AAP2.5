@@ -14,7 +14,7 @@ If a resilient solution is not a requirement, deploy Ansible Automation Platform
 
 *Clustered*
 
-With clustered Redis, data is automatically partitioned over multiple nodes to provide performance stability and nodes are assigned as replicas to provide reliability. Clustered Redis shared between the platform gateway and Event-Driven Ansible is provided by default when installing Ansible Automation Platform in containerized and operator-based deployments. 	
+With clustered Redis, data is automatically partitioned over multiple nodes to provide performance stability and nodes are assigned as replicas to provide reliability. Clustered Redis shared between the platform gateway and Event-Driven Ansible is provided by default when installing the Ansible Automation Platform in containerized and operator-based deployments. 	
 
 image::6.2.png[]
 
@@ -23,7 +23,7 @@ Data is automatically split across multiple nodes.
 Data can be dynamically adjusted. 					
 Automatic failover of the primary nodes is initiated during system failures. 	
 
-NOTE: Clustered Redis is shared between the platform gateway and Event-Driven Ansible and is provided by default when installing Ansible Automation Platform in containerized and operator-based deployments.
+NOTE: Clustered Redis is shared between the platform gateway and Event-Driven Ansible and is provided by default when installing the Ansible Automation Platform in containerized and operator-based deployments.
 
 
 

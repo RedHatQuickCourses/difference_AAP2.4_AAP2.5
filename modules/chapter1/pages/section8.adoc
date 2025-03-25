@@ -1,16 +1,15 @@
-= Event-Driven Ansible
+= Event-driven Ansible
 
-Starting with Ansible Automation Platform 2.5, Pushing events to Event-Driven Ansible is made easier. Event streams are supported for webhook connections to Event-Driven Ansible, and event routing is made simpler. Using event streams to link your rulebooks and sources is simple. With this new feature, you may use events in different rulebooks and configure a single endpoint to receive alerts from an event source. In the past, each ruleset you wished to establish would have required a new endpoint for each event source. By removing numerous ports that are open through a firewall, this lowers risk, makes rulebook activation configuration simpler, and requires less maintenance.
+Starting with Ansible Automation Platform 2.5, Pushing events to Event-Driven Ansible is made easier. Event streams are supported for webhook connections to Event-Driven Ansible, and event routing is made simpler. Using event streams to link your rulebooks and sources is simple. With this new feature, you may use events in different rulebooks and configure a single endpoint to receive alerts from an event source. In the past, each ruleset you wished to establish would have required a new endpoint for each event source. Removing numerous ports that are open through a firewall, lowers risk, makes rulebook activation configuration simpler, and requires less maintenance.
 
 image::8.png[]
 
 Event streams enable:
 
-- Webhook-based sources, automatically routed to one or many configured rulebook activations.
-- Event-Driven Ansible to handle delivery of events to horizontally scaled rulebook activations. 
-- Event-Driven Ansible to receive events from even more sources. Any system that can emit webhooks (GitHub, Service-Now, GitLab, etc.) can now directly send events for Ansible Automation Platform to process.
+- Webhook-based sources, are automatically routed to one or many configured rulebook activations.
+- Event-driven Ansible to handle delivery of events to horizontally scaled rulebook activations. 
+- Event-driven Ansible to receive events from even more sources. Any system that can emit webhooks (GitHub, Service-Now, GitLab, etc.) can now directly send events for Ansible Automation Platform to process.
 
 image::8.2.png[]
                       
-Enterprise features like credential management, RBAC + SSO, and high availability and scalability will also be included in Event-Driven Ansible 2.5. By connecting a new Event-Driven Ansible 2.5 deployment to their Ansible Automation Platform 2.4 environment, customers who are not yet ready to upgrade their current Ansible Automation Platform 2.4 deployments can still benefit from the new Event-Driven Ansible features.
-
+Enterprise features like credential management, RBAC + SSO, and high availability and scalability will also be included in Event-driven Ansible. By connecting a new Event-Driven Ansible 2.5 deployment to their Ansible Automation Platform 2.4 environment, customers who are not yet ready to upgrade their current Ansible Automation Platform 2.4 deployments can still benefit from the new Event-Driven Ansible features.
