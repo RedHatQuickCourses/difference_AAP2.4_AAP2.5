@@ -20,12 +20,34 @@ image::4.2.png[]
 
 . Compared to the Ansible Automation Platform 2.4 the  new interface that delivers an improved experience for operators, developers, and platform administrators, with a more consistent and centralized: 
 
-- WebUI
-- API
-- Authentication and authorization
-- Role-based access controls (RBAC)
+.. WebUI
+... Automation execution
+... Ansible Lightspeed
+... Automation decision
+... Automation Content 
+... Ansible Lightspeed 
+... Automation Analytics  
 
+
+.. API
+... /receptor_addresses
+... /service-index
+... /role_definitions
+... /role_user_assignments
+... /role_team_assignments
+... Hostname_gateway/
+.... /api/gateway/
+.... /api/controller/
+.... /api/eda/
+.... /api/galaxy/
+
+. Authentication and authorization
+. Role based access controls (RBAC)
+.. Some User roles are now managed via Gateway API authentication
+Yet Teams seem to be still managed via Controller API (old way)
+.. Teams can now be Org admins. 
+.. Org roles are managed from Orgs, not from Teams and Users
+.. Ability to create custom role definitions
 
 . Use Ansible Analytics directly within the unified UI to generate reporting at scale. 
-
-. Automation Calculator: ROI reporting to demonstrate the value and impact of automation initiatives.
+.. Automation Calculator: ROI reporting to demonstrate the value and impact of automation initiatives.

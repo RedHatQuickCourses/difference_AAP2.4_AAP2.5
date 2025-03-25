@@ -1,4 +1,4 @@
-= What Makes Ansible Automation Platform 2.5 Better Than 2.4?
+= Key New Features in AAP 2.5
 
 In this section, we cover what new changes are there in Ansible Automation Platform 2.5 which makes it better compared to Ansible Automation Platform 2.4 here is the generic owerview: 
 

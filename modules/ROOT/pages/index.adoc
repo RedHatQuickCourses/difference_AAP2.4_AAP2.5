@@ -1,4 +1,4 @@
-= What Makes Ansible Automation Platform 2.5 Better Than 2.4?
+= Key New Features in AAP 2.5
 :navtitle: Home
 
 == Introduction
@@ -23,3 +23,12 @@ Duration: 30 minutes
 This course assumes that you have the following prior experience:
 
 - Basic information of Ansible Automation Platform 2.4 and its working.  
+
+== Contributors
+
+The PTL team acknowledges the valuable contributions of the following Red Hat associates:
+
+    - Konstantin Kuminsky (Contributor)
+    - Amrinder Singh (Content Architect)
+    - Rutuja Deshmukh (Editor)
+    - Anna Swicegood (Learning Product Manager)

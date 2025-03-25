@@ -13,4 +13,3 @@ Event streams enable:
 image::8.2.png[]
                       
 Enterprise features like credential management, RBAC + SSO, and high availability and scalability will also be included in Event-driven Ansible. By connecting a new Event-Driven Ansible 2.5 deployment to their Ansible Automation Platform 2.4 environment, customers who are not yet ready to upgrade their current Ansible Automation Platform 2.4 deployments can still benefit from the new Event-Driven Ansible features.
-
